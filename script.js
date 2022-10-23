@@ -10,3 +10,26 @@ function checkNumbers(number1, number2) {
   }
 }
 console.log(checkNumbers(50, 10));
+
+//function to check if a number is odd or even
+
+function oddOrEven(number) {
+  if (number % 2 === 0) {
+    return `The number ${number} is even`;
+  } else {
+    return `The number ${number} is odd`;
+  }
+}
+
+console.log(oddOrEven(10));
+
+// multiplication table
+
+function multiplicationTable(number) {
+  for (let i = 1; i < 11; i++) {
+    let multiplication = i * number;
+    console.log(`${number} X ${i} = ${multiplication}`);
+  }
+}
+
+console.log(multiplicationTable(5));
