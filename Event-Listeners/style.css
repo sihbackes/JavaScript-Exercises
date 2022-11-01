@@ -1,0 +1,29 @@
+body {
+  width: 70vw;
+  margin-inline: auto;
+  display: flex;
+  justify-content: center;
+}
+.grandparent {
+  height: 600px;
+  width: 600px;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parent {
+  height: 400px;
+  width: 400px;
+  background-color: lightpink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.child {
+  height: 200px;
+  width: 200px;
+  background-color: lightyellow;
+}
