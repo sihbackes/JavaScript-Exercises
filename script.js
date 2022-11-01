@@ -33,3 +33,15 @@ function multiplicationTable(number) {
 }
 
 console.log(multiplicationTable(5));
+
+//ARROW FUNCTIONS
+
+// Arrow functions allows a short syntax for writing function expressions.
+// You don't need the function keyword, the return keyword, and the curly brackets.
+
+var x = function (x, y) {
+  return x * y;
+};
+
+const x = (x, y) => x * y;
+// Arrow functions are not hoisted. They must be defined before they are used.
