@@ -43,5 +43,27 @@ var x = function (x, y) {
   return x * y;
 };
 
-const x = (x, y) => x * y;
+const x2 = (x, y) => x * y;
 // Arrow functions are not hoisted. They must be defined before they are used.
+
+//function with 2 parameters
+function sum(a, b) {
+  return a + b;
+}
+
+let sum2 = (a, b) => a + b;
+
+//function with 1 parameter
+function isPositive(number) {
+  return number >= 0;
+}
+
+let isPositive2 = (number) => number >= 0;
+
+// function with no parameter
+
+function randomNumber() {
+  return Math.floor(Math.random() * 10);
+}
+
+let randomNumber2 = () => Math.floor(Math.random() * 10);
